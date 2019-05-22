@@ -1,0 +1,199 @@
+.label cmd_move_down=$17d2 {
+}
+.label check_collision=$1115 {
+  .label dosum=$114a
+  .label next_char=$115d
+  .label no_coll=$1169
+}
+.label animbeginaddr=$1689
+.label screen2_spr_data=$46c3
+.label ready_for_change=$1276
+.label objs_0=$4500
+.label update_anim=$169a {
+  .label nomoreanim=$16f9
+  .label nextanim=$16a2
+  .label noresetframe=$16d0
+  .label nochangeframe=$16e9
+}
+.label objs_1=$4513
+.label advance=$1773 {
+  .label il_comando_continua=$178e
+  .label fine_comando=$178f
+}
+.label objs_2=$4518
+.label objs_3=$451f
+.label objs_4=$4572
+.label objs_5=$4590
+.label objs_6=$4599
+.label objs_7=$45a3
+.label objs_8=$45aa
+.label screen1_obj_nums=$463d
+.label screen2_spr_nums=$46c2
+.label return_to_raster_service=$14dc
+.label float_posy_lo=$4833
+.label raster_service_routine=$14ae
+.label screen0_level_objs=$45ea
+.label savey=$13a5
+.label height=$13a7
+.label do_new_level=$1087 {
+  .label zero_s=$10a0
+}
+.label spr_cur_frame=$477f
+.label _init_raster=$144f
+.label is_collide=$1113
+.label spr_nums=$46ed
+.label cmd_table_lo=$47c7
+.label jump_dir=$4955
+.label getjoy=$100d {
+}
+.label maxframe=$1688
+.label _stop_raster=$147e
+.label cmd_idiot_moving=$185c {
+  .label dir_sinistra=$18f9
+  .label no_coll=$1901
+  .label nojump=$186c
+  .label cont=$187b
+  .label horiz_moving=$18b3
+}
+.label spr_logic_pc=$47af
+.label wait=$12bf
+.label jump_path=$48c3
+.label spr_cur=$46ee
+.label spr_coordx_hi=$4707
+.label raster_line=$149a
+.label temp2=$14ac
+.label temp3=$14ad
+.label sprites=$3c00
+.label colors=$14a3
+.label anim_offset=$45e4
+.label level_spr_ref_01=$4803
+.label level_spr_ref_02=$4813
+.label level_spr_ref_03=$4823
+.label num_iter=$487b
+.label update_player=$11ad {
+  .label move=$1241
+  .label nojump_please=$11e2
+  .label L30=$11f9
+  .label L10=$121e
+  .label no_coll=$1275
+  .label ok=$11e2
+  .label joy_right=$1230
+}
+.label cmd_move_left=$179b {
+}
+.label pause_the_raster=$1514
+.label spr_logic_id=$474f
+.label _frame_ready=$1498
+.label cmd_wait=$1798 {
+}
+.label load_screen=$1312 {
+  .label next=$132a
+}
+.label screen_obj_table_lo=$46e7
+.label spr_image_id=$4767
+.label _raster_service_update_anim=$1534
+.label screen_spr_table_hi=$46e4
+.label width=$13a6
+.label _raster_service_nop=$1531
+.label spr_dir_lo=$104a
+.label chars=$3000
+.label main=$1277
+.label spr_counter=$1032
+.label setup_player_coord=$10ee {
+}
+.label raster_jump=$14b0
+.label bit_table=$1904
+.label update_logic=$16fe {
+  .label next=$1703
+  .label carica_nuovo_comando=$172f
+  .label reset_pc=$176b
+}
+.label _raster_service=$14b3
+.label cur_cmd=$48ab
+.label cmd_move_path=$17df {
+  .label adv=$180c
+}
+.label num_lines=$14a2
+.label float_posy_hi=$484b
+.label anim_data=$45c1
+.label setup_next_player_coord=$10d9 {
+  .label new_level=$10e6
+}
+.label acc_iter=$4863
+.label screen0_spr_nums=$4618
+.label screen0_spr_data=$4619
+.label screen2_level_objs=$46b4
+.label WaitBottom=$1002 {
+  .label L2=$1007
+}
+.label cmd_move_right=$17b0 {
+}
+.label call_func=$16fa {
+}
+.label logic_program=$47e0
+.label platform_y=$1081
+.label spr_coordy_lo=$471f
+.label platform_x=$107b
+.label irqcnt=$14a1
+.label lookup_color=$192a
+.label spr_anim_id=$4737
+.label LL1=$14ec
+.label screen1_level_objs=$463e
+.label LL4=$14c5
+.label newframe=$168a
+.label wait_unpress=$12e2
+.label screen_id=$1311
+.label cmd_table_hi=$47d1
+.label color=$13a8
+.label cmd_idiot_jump=$180f {
+  .label adv=$1859
+  .label move_hor=$1859
+  .label no_coll=$1859
+}
+.label screen1_spr_nums=$464c
+.label screen2_obj_nums=$46b3
+.label spr_coordx_lo=$46ef
+.label clearscreen=$101b {
+  .label rep=$101f
+}
+.label spr_frame_pause=$4797
+.label _no_irq_raster_service_band1=$153c {
+}
+.label ready=$1300
+.label screen1_spr_data=$464d
+.label check_joy=$12d6
+.label screen0_obj_nums=$45e9
+.label lookup=$195c
+.label logic_offset=$47db
+.label temp=$14ab
+.label cmd_move_up=$17c5 {
+}
+.label frame_wait=$14b2
+.label joydata=$1001
+.label nextimg=$1298
+.label screen_spr_table_lo=$46e1
+.label screen_obj_table_hi=$46ea
+.label pause_raster=$1000
+.label coll_posy=$1114
+.label _raster_service_band1=$158f {
+}
+.label _draw_screen=$13a9 {
+  .label command_finished=$1448
+  .label L1=$13d7
+  .label next_row=$1407
+  .label L2=$13e3
+  .label next_char=$1409
+  .label end=$144e
+  .label process_command=$13bb
+  .label there_is_a_command=$13ab
+}
+.label _raster_service_band2=$15e2 {
+}
+.label _raster_service_band3=$1635 {
+}
+.label incr_iter=$4893
+.label spr_dir_hi=$1062
+.label platform_id=$107a
+.label word2byte=$1914
+.label cmd_nop=$1798 {
+}

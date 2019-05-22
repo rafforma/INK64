@@ -1,0 +1,25 @@
+Nel file inksprite02clean trovi 15 sprite (da 0 a 15, con 15 sprite vuoto):
+
+00 : sprite da utilizzare per le particelle di inchiostro
+
+01: target di uscita schermo (cornice esterna)
+
+02: target di uscita schermo (parte interna da attivare quando
+il livello è completato, eventualmente con gioco di colori)
+
+03, 04, 05: sprite nemici (il default è 03, mentre 04 e 05
+lo stirano in x e y quando si inverte la direzione di movimento,
+prima frame 04 poi 05)
+
+06: sprite giocatore di default
+
+Quando il giocatore impartisce una direzione (dx o sx) lo sprite deve
+inclinarsi. Esempio, se va a destra usare sprite 14. Se va a sinistra
+usare sprite 13.
+
+Quando lo sprite si arresta, utilizzare gli sprite 11 e 12. Se lo sprite
+va verso destra, quando si ferma usare 12, 11, 06. Se lo sprite va verso
+sinistra, quando si ferma usare 11, 12, 06.
+
+Quando lo sprite salta utilizzare la sequenza 07, 08, 07, 06, 09, 10, 09, 06.
+Quando lo sprite atterra utilizzare la sequenza 07, 08, 07, 06, 09, 06, 07, 06.
